@@ -5,6 +5,7 @@
 I used the code first approach with entity framework to create the data layer. Apart from the main Medication Tables I created seperate tables for ActiveIngredients, ATCCodes, Classifcations, PharmaceuticalForms, TherapeuticClasses and Units, as these values are often repeated and in common between different Medications.
 I tried to use the clean architecture pattern (without Mediator) as much as possible. But the application layer is dependent on the infrastructure layer as I did not have time to create an abstractions for the repository layer.
 The solution was written on VS 2022 using .NET 8 framework. I used controllers for the API, but the way forward is probably to use minimal APIs instead.
+Due to time constraints I only added a few unit tests for the MedicationService CreateAsync method.
 
 ## Intructions
 
@@ -37,6 +38,7 @@ These are things I would have done given more time on the task.
 - Add a Front end
 - Add Crud operations for all other data tables.
 - Add a repository abstraction layer to improve seperation of concerns.
+- Add unit tests for all public methods.
 - Add Containerization
 - Add Authorization
 - Improve error handling. For example right now I always return bad request type even if the problem is server side. (Ideally we would return 500 in that case)
