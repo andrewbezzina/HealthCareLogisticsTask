@@ -5,13 +5,15 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicationRecords.Api", "MedicationRecordsAPI\MedicationRecords.Api.csproj", "{A66B0A57-76B9-49EC-BA43-6D63C8114C7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicationRecords.Domain", "MedicationRecords.Domain\MedicationRecords.Domain.csproj", "{247B0320-45B6-4121-A7F8-547C1C1AD57F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicationRecords.Domain", "MedicationRecords.Domain\MedicationRecords.Domain.csproj", "{247B0320-45B6-4121-A7F8-547C1C1AD57F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicationRecords.Contracts", "MedicationRecords.Contracts\MedicationRecords.Contracts.csproj", "{0472B362-E583-4556-B476-D06A6E49D48E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicationRecords.Contracts", "MedicationRecords.Contracts\MedicationRecords.Contracts.csproj", "{0472B362-E583-4556-B476-D06A6E49D48E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicationRecords.Infrastructure", "MedicationRecords.Infrastructure\MedicationRecords.Infrastructure.csproj", "{663B6D53-A7AA-48FB-8192-64C9DF5B2307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicationRecords.Infrastructure", "MedicationRecords.Infrastructure\MedicationRecords.Infrastructure.csproj", "{663B6D53-A7AA-48FB-8192-64C9DF5B2307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicationRecords.Application", "MedicationRecords.Application\MedicationRecords.Application.csproj", "{B81909EC-0BFA-414E-91E8-398744BA9FE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicationRecords.Application", "MedicationRecords.Application\MedicationRecords.Application.csproj", "{B81909EC-0BFA-414E-91E8-398744BA9FE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicationRecords.Application.Tests", "ApplicationTests\MedicationRecords.Application.Tests.csproj", "{AF840E88-6264-44D0-AFD0-2CD6A413B573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B81909EC-0BFA-414E-91E8-398744BA9FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B81909EC-0BFA-414E-91E8-398744BA9FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B81909EC-0BFA-414E-91E8-398744BA9FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF840E88-6264-44D0-AFD0-2CD6A413B573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF840E88-6264-44D0-AFD0-2CD6A413B573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF840E88-6264-44D0-AFD0-2CD6A413B573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF840E88-6264-44D0-AFD0-2CD6A413B573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

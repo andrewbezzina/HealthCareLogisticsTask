@@ -8,17 +8,17 @@
 3. Go to the **Package Manager Console** and select *MedicationRecords.Infrastructure* as the default project.
 4. Run the following command to psetup database with existing Migration files: <code>Update-Database</code> 
 5. Use Sql Server Managemnet Studio to confirm that a database called *MedicationsDB* was created and that it includes the following tables:
-	-[dbo].[ActiveIngredients]
-	-[dbo].[ATCCodes]
-	-[dbo].[Classifications]
-	-[dbo].[Medications]
-	-[dbo].[PharmaceuticalForms]
-	-[dbo].[TherapeuticClasses]
-	-[dbo].[Units]
+	- [dbo].[ActiveIngredients]
+	- [dbo].[ATCCodes]
+	- [dbo].[Classifications]
+	- [dbo].[Medications]
+	- [dbo].[PharmaceuticalForms]
+	- [dbo].[TherapeuticClasses]
+	- [dbo].[Units]
 	
 ### Run tha Api
 1. Run the application from VS 2022 make sure that *MedicationRecords.Api* is the startup project.
-2. Call api/me
+2. Execute Post api/Medications/PopulateDatabase
 
 ### Api notes
 For Update operation every field is nullable. if a field is left null it will be left unchanged.
